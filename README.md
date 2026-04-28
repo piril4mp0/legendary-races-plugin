@@ -1,7 +1,7 @@
 # Aviso
 ⚠️ Não estou mais atuando neste repo, e havia desenvolvido em uma branch de um repo de um amigo. Trouxe ele para meu Github apenas para fins de documentação.
 
-# Sistema de Raças para Servidores Paper Minecraft 1.21.4
+# Sistema de Raças de RPG para Servidores Paper Minecraft 1.21.4
 <img width="270" height="443" alt="imagem" src="https://github.com/user-attachments/assets/0ceec3fd-5f0e-4632-9853-cb3a4305a283"/>
 
 
