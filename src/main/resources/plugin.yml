@@ -1,0 +1,9 @@
+name: legendaryRaces
+version: '1.0-SNAPSHOT'
+main: swmg.murilo.legendaryRaces.LegendaryRaces
+api-version: '1.21'
+commands:
+  raca:
+    description: "Altere sua raca"
+  coins:
+    description:  "Veja sua quantidade de coins"

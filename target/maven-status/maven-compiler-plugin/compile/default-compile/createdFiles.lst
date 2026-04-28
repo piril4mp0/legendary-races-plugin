@@ -1,0 +1,9 @@
+swmg\murilo\legendaryRaces\manager\RaceManager.class
+swmg\murilo\legendaryRaces\listener\PlayerListener$1.class
+swmg\murilo\legendaryRaces\commands\CoinsCommand.class
+swmg\murilo\legendaryRaces\commands\RaceCommand.class
+swmg\murilo\legendaryRaces\manager\RaceSkinManager.class
+swmg\murilo\legendaryRaces\LegendaryRaces.class
+swmg\murilo\legendaryRaces\listener\PlayerListener$2.class
+swmg\murilo\legendaryRaces\storage\PlayerStorage.class
+swmg\murilo\legendaryRaces\listener\PlayerListener.class

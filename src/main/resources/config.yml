@@ -1,0 +1,126 @@
+racas:
+  humano:
+    nome: "Humano" # nome da raca
+    spawn:
+      x: 1
+      y: 1
+      z: 100
+    descricao: "Versátil e equilibrado." # descricao da raca
+    skin: Tarandus # 1 = nome do player
+    armadura_natural: 0 # 1 = meia armadura. 20 = 10 armadura.
+    vida_maxima: 20 # 1 = meio coracao. 20 = 10 coracoes.
+    altura: 1 # altura em blocos
+    aquatico: 0 # 0 ou 1
+    raca_inimiga: tiefling
+    efeitos:
+      1: none # sem efeitos
+
+
+  elfo:
+   nome: "Elfo"
+   spawn:
+    x: 2
+    y: 2
+    z: 100
+   descricao: "Ágil e inteligente, excelente com arco."
+   skin: MUNAVARRO
+   armadura_natural: 0
+   vida_maxima: 14
+   raca_inimiga: orc
+   aquatico: 0
+   altura: 1.1
+   efeitos:
+     1: speed 0 # sempre comeca por 1 o contador
+     2: weakness 0 # USO: "[id_efeito] [amplificador]"
+     3: luck 0
+
+
+  anao:
+   nome: "Anão"
+   spawn:
+     x: 3
+     y: 3
+     z: 100
+   descricao: "Tanque, ideal para combate corpo a corpo."
+   skin: Gimli
+   armadura_natural: 4
+   vida_maxima: 20
+   raca_inimiga: khajiit
+   aquatico: 0
+   altura: 0.5
+   efeitos:
+     1: haste 0
+     2: night_vision 0
+     3: slowness 0
+     4: resistance 0
+
+  orc:
+    nome: "Orc"
+    spawn:
+      x: 4
+      y: 4
+      z: 100
+    descricao: "Forte e bruto. Nao pensa muito, so parte pra cima"
+    skin: Zhagoul
+    armadura_natural: 10
+    raca_inimiga: elfo
+    vida_maxima: 24
+    aquatico: 0
+    altura: 1.1
+    efeitos:
+      1: strength 0
+
+
+  tiefling:
+    nome: "Tiefling"
+    spawn:
+      x: 5
+      y: 5
+      z: 100
+    descricao: "Tanque, ideal para combate corpo a corpo."
+    skin: MxAnthropy
+    armadura_natural: 4
+    raca_inimiga: humano
+    vida_maxima: 20
+    aquatico: 0
+    altura: 1
+    efeitos:
+      1: fire_resistance 0
+      2: health_boost 0
+      3: strength 0
+
+  homempeixe:
+      nome: "Homem Peixe"
+      spawn:
+        x: 6
+        y: 6
+        z: 100
+      descricao: "Tanque, ideal para combate corpo a corpo."
+      skin: WonkyWater36
+      armadura_natural: 0
+      vida_maxima: 14
+      aquatico: 1
+      altura: 1.1
+      efeitos:
+        1: conduit_power 0
+        2: weakness 0
+        3: luck 0
+        4: dolphins_grace 0
+
+  khajiit:
+      nome: "Khajiit"
+      spawn:
+        x: 7
+        y: 7
+        z: 100
+      descricao: "Tanque, ideal para combate corpo a corpo."
+      skin: martiez
+      armadura_natural: 0
+      aquatico: 0
+      raca_inimiga: anao
+      vida_maxima: 12
+      altura: 0.8
+      efeitos:
+        1: luck 0
+        2: jump_boost 0
+        3: speed 1
