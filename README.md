@@ -1,4 +1,5 @@
-# Sistema de Racas para o Minecraft.
+# Sistema de Racas para o Minecraft para 1.21.4
+⚠️ Não estou mais atuando neste repo, e havia desenvolvido em uma branch de um repo de um amigo. Trouxe ele para meu Github apenas para fins de documentação.
 
 # Features atuais:
 * Racas personalizaveis apenas editando o config.yml
