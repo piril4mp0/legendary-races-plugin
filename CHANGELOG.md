@@ -2,7 +2,7 @@
 * Plugin em uma versao estavel e funcional
 * Criado armazenamento e customizacao de racas via config.yml
 * Criado comando /raca <raca> para selecao de raca
-* Tratamento para troca de racas: Player perde os efeito da raca anterior, ficando somente com os novos efeitos
+* Tratamento para troca de racas: Player perde os efeitos da raça anterior, ficando somente com os novos efeitos
 
 # V0.1
 * Adicionado tratamento para racas invalidas
